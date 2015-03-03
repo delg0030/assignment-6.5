@@ -13,7 +13,7 @@ body {
 section {
   padding: 4em 1em;
   position: relative;
-
+    overflow: hidden;
   border-bottom: 1px solid #ccc;
 }
 
@@ -80,10 +80,11 @@ background-color: yellow;
 
 .circle {
     height: 100px;
-    top: calc(50% - 50px);
+    top: calc(30% - 30px);
     width: 100px;
     border-radius: 60px;
     background-color: orange;
+    right: 0;
     
 }
 
@@ -93,19 +94,30 @@ background-color: yellow;
 
 @keyframes circle-bounce {
     0% {
-    top: 400px;
+    top: 40px;
+    right: 5em;
+    }
+    20% {
+        top: 10px;
+        right: 10em;
     }
     40% {
-        top: 600px;
+        top: 50px;
+        right: 15em;
     }
     60% {
-        top: 500px;
+        top: 10px;
+        right: 20em;
     }
-    100% {
-        top: 600px;
-    }
-}
+    
+    80% {
+        top: 70px;
+        right: 10em;
+        
+    100% top: 100px;
+        right: 5em;
 
+}
 
 .list {
   bottom: 1em;

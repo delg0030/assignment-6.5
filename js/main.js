@@ -26,7 +26,7 @@ $btnCollapse.on('click', function () {
 });
 
 
-$btnBounce.on('click', function )) {
+$btnBounce.on('click', function () {
     $circle.addClass('js-circle-bounce')
 });
 
