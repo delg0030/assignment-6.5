@@ -38,10 +38,10 @@ $circle.on('animationend', function () {
 });
 
 $btnAppend.on('click', function() {
-    
     var $li = $('<li>').html('New List Items');
+    
     $list.prepend($li);
-    $li.addClass ('new-li')
+    $li.addClass ('new-li');
 });
 
 
