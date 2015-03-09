@@ -43,8 +43,3 @@ $btnAppend.on('click', function() {
     $list.prepend($li);
     $li.addClass ('new-list');
 });
-
-
-
-
-
