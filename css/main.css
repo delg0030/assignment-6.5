@@ -140,4 +140,32 @@ background-color: yellow;
   border: 1px solid mediumpurple;
 
   color: mediumpurple;
+    overflow: hidden;
 }
+
+.new-list {
+    -webkit-animation: js-append 1s ease-in;
+    animation: js-append 1s ease-in;
+}
+    
+    @-webkit-keyframes js-append {
+        0% {
+            max-height: 0px;
+        }
+        100% {
+            max-height: 4em;
+        }
+    }
+    
+    @keyframes js-append {
+        0% {
+            max-height: 0px;
+        }
+        100% {
+            max-height: 4em;
+        }
+    }
+    
+    
+    
+    
